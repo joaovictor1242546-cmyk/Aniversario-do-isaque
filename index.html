@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 Aninho - 365 Dias, 365 Sorrisos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- Cabeçalho / Tema -->
+    <header class="hero">
+        <span class="tag-festa">Festa de 1 Ano • 12 de Dezembro</span>
+        <h1>365 Dias, 365 Sorrisos</h1>
+        <p>O sorriso dele ilumina nossos dias e agora queremos celebrar com quem a gente ama!</p>
+        <div class="data-badge">📅 Confirmação de Presença: De 15 a 25 de Novembro (10 dias)</div>
+    </header>
+
+    <!-- Seção de Mensagem Especial sobre o Sorriso -->
+    <section class="smile-quote-section">
+        <div class="quote-box">
+            <p>✨ <em>"Cada um dos 365 dias do ano foi iluminado por um sorriso único. O sorriso dele tem o poder de transformar qualquer dia cinza em pura alegria. Venha fazer parte desse momento mágico!"</em> ✨</p>
+        </div>
+    </section>
+
+    <!-- Seção: Detalhes e Preferências -->
+    <section class="container">
+        <h2>Detalhes da Festa & Preferências</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>👕 Tamanhos & Peças</h3>
+                <p>Para quem quiser presentear com carinho:</p>
+                <ul>
+                    <li><strong>Roupas:</strong> Tamanho 1 ano</li>
+                    <li><strong>Calçados:</strong> Tamanho 19</li>
+                </ul>
+                <p class="aviso-presente"><em>(Nota da mamãe: Sem sugestões fechadas de presentes, o mais importante é a sua presença e carinho!)</em></p>
+            </div>
+            <div class="card">
+                <h3>🦖 O que ele mais ama?</h3>
+                <p>Ele é apaixonado por:</p>
+                <div class="tags-gostos">
+                    <span class="badge">🦕 Dinossauros</span>
+                    <span class="badge">🚗 Carrinhos</span>
+                </div>
+                <p style="margin-top: 10px;">Brinquedos e momentos divertidos que envolvam esse universo fazem a alegria dele todos os dias!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção: Confirmação de Presença (RSVP) -->
+    <section class="container rsvp-section">
+        <h2>Confirmação de Presença</h2>
+        <p>Por favor, confirme até o dia 25 de novembro para organizarmos tudo com muito amor.</p>
+        
+        <form class="rsvp-form" action="https://formspree.io/f/seu-codigo-aqui" method="POST">
+            <div class="form-group">
+                <label for="nome">Nome Completo do Convidado:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+            </div>
+            
+            <div class="form-group">
+                <label for="acompanhantes">Quantas pessoas vão com você?</label>
+                <input type="number" id="acompanhantes" name="acompanhantes" min="1" value="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="presenca">Você poderá comparecer?</label>
+                <select id="presenca" name="presenca">
+                    <option value="Sim">Sim, estarei lá comemorando!</option>
+                    <option value="Nao">Infelizmente não poderei ir</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn-enviar">Confirmar Presença</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Feito com todo amor para celebrar os 365 sorrisos do nosso pequeno!</p>
+    </footer>
+
+</body>
+</html>
